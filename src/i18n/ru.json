@@ -1,0 +1,109 @@
+{
+  "header": {
+    "name": "Артур",
+    "role": "Senior Site Reliability Engineer",
+    "status": "Все системы работают",
+    "nav": {
+      "dashboard": "Дашборд",
+      "incidents": "Инциденты",
+      "metrics": "Метрики",
+      "stack": "Стек",
+      "architecture": "Архитектура",
+      "achievements": "Достижения",
+      "contact": "Контакты"
+    }
+  },
+  "hero": {
+    "title": "Senior Site Reliability Engineer",
+    "subtitle": "Федеральная розничная сеть — 1000+ магазинов",
+    "company": "Улыбка Радуги",
+    "stats": {
+      "incidents": "Инцидентов решено на проде",
+      "services": "Микросервисов под управлением",
+      "events": "Событий/день обработано",
+      "sla": "SLA сервиса заказов"
+    }
+  },
+  "incidents": {
+    "title": "Журнал инцидентов",
+    "subtitle": "Реальные инциденты из канала координации",
+    "filters": {
+      "all": "Все",
+      "infrastructure": "Инфраструктура",
+      "database": "Базы данных",
+      "queue": "Очереди",
+      "auth": "Авторизация",
+      "deployment": "Деплой",
+      "performance": "Производительность",
+      "monitoring": "Мониторинг"
+    },
+    "severity": {
+      "critical": "Критический",
+      "major": "Мажорный",
+      "minor": "Минорный"
+    },
+    "labels": {
+      "impact": "Влияние",
+      "rca": "Корневая причина",
+      "resolution": "Решение",
+      "prevention": "Предотвращение",
+      "mttr": "MTTR",
+      "timeline": "Хронология",
+      "detection": "Обнаружение",
+      "investigation": "Расследование",
+      "resolved": "Решено"
+    }
+  },
+  "metrics": {
+    "title": "Метрики надёжности",
+    "subtitle": "Ключевые показатели эффективности",
+    "reliability": "Надёжность",
+    "scale": "Масштаб",
+    "mttr": "MTTR",
+    "mttrDesc": "было 2-10ч",
+    "messageLoss": "Потеря сообщений",
+    "throughput": "Пропускная способность",
+    "throughputUnit": "событий/день",
+    "sla": "SLA",
+    "microservices": "Микросервисов",
+    "queues": "Очередей RabbitMQ",
+    "queuesDesc": "2 кластера",
+    "cronjobs": "CronJob",
+    "integrations": "Внешних интеграций",
+    "integrationsDesc": "6 маркетплейсов"
+  },
+  "stack": {
+    "title": "Технологический стек",
+    "subtitle": "Инструменты и технологии в ежедневной работе",
+    "categories": {
+      "orchestration": "Оркестрация",
+      "cicd": "CI/CD",
+      "observability": "Наблюдаемость",
+      "messaging": "Обмен сообщениями",
+      "databases": "Базы данных",
+      "reliability": "Паттерны надёжности"
+    }
+  },
+  "architecture": {
+    "title": "Архитектура микросервисов",
+    "subtitle": "Топология системы",
+    "clients": "Клиенты",
+    "gateway": "API Gateway",
+    "services": "Сервисы",
+    "data": "Данные",
+    "external": "Внешние"
+  },
+  "achievements": {
+    "title": "Ключевые достижения",
+    "subtitle": "Измеримое влияние на надёжность системы"
+  },
+  "contact": {
+    "title": "Связаться",
+    "subtitle": "Открыт для SRE / Platform Engineering / DevOps позиций",
+    "resume": "Скачать резюме",
+    "email": "Email",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

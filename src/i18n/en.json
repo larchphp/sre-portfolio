@@ -1,0 +1,109 @@
+{
+  "header": {
+    "name": "Artur",
+    "role": "Senior Site Reliability Engineer",
+    "status": "All Systems Operational",
+    "nav": {
+      "dashboard": "Dashboard",
+      "incidents": "Incidents",
+      "metrics": "Metrics",
+      "stack": "Tech Stack",
+      "architecture": "Architecture",
+      "achievements": "Achievements",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "Senior Site Reliability Engineer",
+    "subtitle": "Federal Retail Chain — 1000+ Stores",
+    "company": "Ulybka Radugi",
+    "stats": {
+      "incidents": "Production Incidents Resolved",
+      "services": "Microservices Managed",
+      "events": "Events/Day Processed",
+      "sla": "Order Service SLA"
+    }
+  },
+  "incidents": {
+    "title": "Incident Response Log",
+    "subtitle": "Real production incidents from incident coordination channel",
+    "filters": {
+      "all": "All",
+      "infrastructure": "Infrastructure",
+      "database": "Database",
+      "queue": "Queue",
+      "auth": "Auth",
+      "deployment": "Deployment",
+      "performance": "Performance",
+      "monitoring": "Monitoring"
+    },
+    "severity": {
+      "critical": "Critical",
+      "major": "Major",
+      "minor": "Minor"
+    },
+    "labels": {
+      "impact": "Impact",
+      "rca": "Root Cause",
+      "resolution": "Resolution",
+      "prevention": "Prevention",
+      "mttr": "MTTR",
+      "timeline": "Timeline",
+      "detection": "Detection",
+      "investigation": "Investigation",
+      "resolved": "Resolved"
+    }
+  },
+  "metrics": {
+    "title": "Reliability Metrics",
+    "subtitle": "Key performance indicators",
+    "reliability": "Reliability",
+    "scale": "Scale",
+    "mttr": "MTTR",
+    "mttrDesc": "was 2-10h",
+    "messageLoss": "Message Loss",
+    "throughput": "Queue Throughput",
+    "throughputUnit": "events/day",
+    "sla": "SLA",
+    "microservices": "Microservices",
+    "queues": "RabbitMQ Queues",
+    "queuesDesc": "2 clusters",
+    "cronjobs": "CronJobs",
+    "integrations": "External Integrations",
+    "integrationsDesc": "6 marketplaces"
+  },
+  "stack": {
+    "title": "Technology Stack",
+    "subtitle": "Tools and technologies in daily use",
+    "categories": {
+      "orchestration": "Orchestration",
+      "cicd": "CI/CD",
+      "observability": "Observability",
+      "messaging": "Messaging",
+      "databases": "Databases",
+      "reliability": "Reliability Patterns"
+    }
+  },
+  "architecture": {
+    "title": "Microservices Architecture",
+    "subtitle": "System topology overview",
+    "clients": "Clients",
+    "gateway": "API Gateway",
+    "services": "Services",
+    "data": "Data Layer",
+    "external": "External"
+  },
+  "achievements": {
+    "title": "Key Achievements",
+    "subtitle": "Measurable impact on system reliability"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Open for SRE / Platform Engineering / DevOps opportunities",
+    "resume": "Download Resume",
+    "email": "Email",
+    "telegram": "Telegram",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

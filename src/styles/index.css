@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-grafana-bg text-grafana-text font-['Inter',sans-serif] antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-grafana-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-grafana-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-grafana-muted;
+  }
+}
+
+@layer components {
+  .grafana-panel {
+    @apply bg-grafana-panel border border-grafana-border rounded-lg overflow-hidden;
+  }
+
+  .grafana-panel-header {
+    @apply px-4 py-3 border-b border-grafana-border flex items-center gap-2 text-sm font-medium text-grafana-muted;
+  }
+
+  .grafana-stat {
+    @apply bg-grafana-panel border border-grafana-border rounded-lg p-6 text-center;
+  }
+
+  .grafana-btn {
+    @apply px-4 py-2 rounded text-sm font-medium transition-all duration-200;
+  }
+
+  .grafana-btn-active {
+    @apply bg-grafana-blue/20 text-grafana-blue border border-grafana-blue/30;
+  }
+
+  .grafana-btn-inactive {
+    @apply bg-grafana-panel text-grafana-muted border border-grafana-border hover:text-grafana-text hover:border-grafana-muted/50;
+  }
+
+  .severity-critical {
+    @apply bg-grafana-red/10 text-grafana-red border-grafana-red/30;
+  }
+
+  .severity-major {
+    @apply bg-grafana-orange/10 text-grafana-orange border-grafana-orange/30;
+  }
+
+  .severity-minor {
+    @apply bg-grafana-yellow/10 text-grafana-yellow border-grafana-yellow/30;
+  }
+
+  .status-operational {
+    @apply text-grafana-green;
+  }
+
+  .status-degraded {
+    @apply text-grafana-yellow;
+  }
+
+  .status-outage {
+    @apply text-grafana-red;
+  }
+
+  .glow-green {
+    box-shadow: 0 0 12px rgba(115, 191, 105, 0.3);
+  }
+
+  .glow-red {
+    box-shadow: 0 0 12px rgba(242, 73, 92, 0.3);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 12px rgba(87, 148, 242, 0.3);
+  }
+
+  .timeline-line {
+    @apply absolute left-6 top-0 bottom-0 w-px bg-grafana-border;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-grafana-green to-grafana-blue;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-grafana-blue/30 text-white;
+}
